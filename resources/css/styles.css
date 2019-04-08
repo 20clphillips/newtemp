@@ -1,30 +1,187 @@
 .header {
-  background-color: lightblue;
+/*background-color: lightblue;*/
   height:200px;
   width:1000px;
   margin: 0 auto;
 }
 
 .content {
-  background-color: yellow;
-  height:600px;
-  width: 1000px;
+/*background-color:yellow;*/
+  height:1000px;
+  width: 2000px;
   margin:0 auto;
   margin-top: 10px;
-}
-
-.column {
-  background-color: red;
-  height: 600px;
-  width:300px;
-  margin:0px 16.6px;
+  overflow: inherit;
   float: left;
 
 }
 
+.column {
+/*background-color:blue;*/
+  height: 840px;
+  width:400px;
+padding: 36px;
+  float: left;
+  <!--martop16.6-->
+  text-align: center;
+border-radius: 10px;
+
+
+
+}
+
 .story{
-  background-color: purple;
- width:300px;
- height:280px;
- margin-top:10px 0;
+/*background-color: lightblue;*/
+ width:400px;
+ height:400px;
+ margin-top:10px;
+ text-align: center;
+}
+
+.logo{
+/*background-color: yellow;*/
+  width:1000px;
+height:175px;
+background-image: url('../images/News Banner.png');
+}
+
+
+nav{
+  /*background-color:yellow;*/
+  width:1000px;
+  height:25px;
+  text-align: center;
+}
+
+.line1{
+
+    /*background-color: black;*/
+  width:1020px;
+  height:2px;
+  }
+
+  .line2{
+    /*background-color: black;*/
+    width:1100;
+    height:4px;
+    margin:4px auto;
+  }
+
+.content2{
+  /*background-color: red;*/
+  width:1400px;
+  height:500px;
+  margin-top: 10px;
+  margin:0 auto;
+  float:left;
+
+}
+
+
+.side-article{
+  /*background-color: brown;*/
+  width:200px;
+  height:490px;
+  margin: 5px;
+  float: left;
+}
+
+.middle-article{
+  /*background-color: grey;*/
+  width:970px;
+  height: 490px;
+  margin:5px;
+float: left;
+}
+
+
+.content3{
+  /*background-color: pink;*/
+  width:1400px;
+  height:500px;
+  margin:0 auto;
+float:left;
+}
+
+
+
+
+
+
+
+
+.button {
+   border: 0px solid #699bb8;
+   background: #f0f3f5;
+   background: -webkit-gradient(linear, left top, left bottom, from(#c74c56), to(#f0f3f5));
+   background: -webkit-linear-gradient(top, #c74c56, #f0f3f5);
+   background: -moz-linear-gradient(top, #c74c56, #f0f3f5);
+   background: -ms-linear-gradient(top, #c74c56, #f0f3f5);
+   background: -o-linear-gradient(top, #c74c56, #f0f3f5);
+   background-image: -ms-linear-gradient(top, #c74c56 0%, #f0f3f5 100%);
+   padding: 5.5px 11px;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   border-radius: 30px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   text-shadow: #e0ddde 0 1px 0;
+   color: #ff0000;
+   font-size: 23px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+position: relative;
+bottom:7px;
+   }
+.button:hover {
+   border: 0px solid #fff7ff;
+   text-shadow: #98c4e0 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   color: #cc424b;
+   }
+.button:active {
+   text-shadow: #a3afc4 0 1px 0;
+   border: 0px solid #8aa7b8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #fff;
+   }
+
+#hp{
+  top:20px;
+  position: relative;
+}
+
+#hp3{
+  bottom:25px;
+}
+
+#hp4{
+  top:20px;
+  position: relative;
+  right:25px;
+}
+
+button{
+  position: relative;
+  bottom:295px;
+  left:255px;
+}
+
+#hp5{
+  position: relative;
+
 }
